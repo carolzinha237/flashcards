@@ -3,10 +3,8 @@ https://carolzinha237.gith
 
 // Seleciona todos os cartões
 const cartoes = document.querySelectorAll('.cartao');
-async (params) => {
-  
-  
-}// Adiciona um evento de clique em cada cartão
+
+// Adiciona um evento de clique em cada cartão
 cartoes.forEach(cartao => {
   cartao.addEventListener('click', () => {
     // Seleciona o conteúdo interno do cartão
@@ -15,4 +13,4 @@ cartoes.forEach(cartao => {
     // Alterna a classe 'girado' para aplicar a rotação
     conteudo.classList.toggle('girado');
   });
-})
+});
