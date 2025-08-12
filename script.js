@@ -13,4 +13,4 @@ cartoes.forEach(cartao => {
     // Alterna a classe 'girado' para aplicar a rotação
     conteudo.classList.toggle('girado');
   });
-});
+})
